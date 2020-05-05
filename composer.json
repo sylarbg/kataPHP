@@ -1,0 +1,22 @@
+{
+    "name": "sylar/katas",
+    "authors": [
+        {
+            "name": "Denis",
+            "email": "dgeorgiev.web@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kata\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kata\\Tests\\": "tests"
+        }
+    }
+}
